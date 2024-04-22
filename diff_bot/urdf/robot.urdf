@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot name="diff_bot">
+    <link name="box">
+        <visual>
+            <geometry>
+                <box size="10.0 10.0 1.0"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="1.0 1.0 1.0"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>
