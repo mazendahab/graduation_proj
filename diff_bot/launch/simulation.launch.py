@@ -6,6 +6,7 @@ from launch.substitutions import Command
 from launch_ros.actions import Node 
 from launch.launch_description_sources import python_launch_description_source
 from launch.actions import include_launch_description
+
 def generate_launch_description():
     gazebo_pkg="gazebo_ros"
     spawn_node="spawn_entity.py"
