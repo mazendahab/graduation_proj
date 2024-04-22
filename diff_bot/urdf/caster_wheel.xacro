@@ -109,5 +109,23 @@
         <child link="left_fwd_wheel_link"/>
     </joint>
         
+    <gazebo reference="right_back_wheel_link">
+        <mu1 value="0.01"/>
+        <mu2 value="0.01"/>
+    </gazebo>
 
+    <gazebo reference="left_back_wheel_link">
+        <mu1 value="0.01"/>
+        <mu2 value="0.01"/>
+    </gazebo>
+
+    <gazebo reference="right_fwd_wheel_link">
+        <mu1 value="0.01"/>
+        <mu2 value="0.01"/>
+    </gazebo>
+
+    <gazebo reference="left_fwd_wheel_link">
+        <mu1 value="0.01"/>
+        <mu2 value="0.01"/>
+    </gazebo>
 </robot>
