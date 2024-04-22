@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- wheel link macro -->
+    <xacro:macro name="wheel_link" params="link_name">
+        <link name="${link_name}">
+            <visual>
+                <geometry>
+                    <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
+                </geometry>
+                <material name="green">
+                    <color rgba="0.0 1.0 0.0 1.0"/>
+                </material>
+            </visual>
+            <collision>
+                <geometry>
+                    <sphere radius="${wheel_radius}"/>
+                </geometry>
+            </collision>
+            <xacro:inertial_cylinder mass="${wheel_mass}" length="${wheel_thickness}" radius="${wheel_radius}">
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            </xacro:inertial_cylinder>
+        </link>
+    </xacro:macro>
+  
+    <!-- wheel joint macro -->
+    <xacro:macro name="wheel_joint" params="joint_name wheel_name x_offset y_offset z_offset roll">
+        <joint name="${joint_name}" type="continuous">
+            <origin xyz="${x_offset} ${y_offset} ${z_offset}" rpy="${roll} 0.0 0.0"/>
+            <parent link="base_link"/>
+            <child link="${wheel_name}"/>
+            <axis xyz="0.0 0.0 1"/>
+        </joint>
+    </xacro:macro>
+
+    <!-- left wheel link -->
+    <xacro:wheel_link link_name="left_wheel_link">
+    </xacro:wheel_link>
+    <!-- right wheel link -->
+    <xacro:wheel_link link_name="right_wheel_link">
+    </xacro:wheel_link>
+    
+    <!-- left wheel joint -->
+    <xacro:wheel_joint joint_name="left_wheel_joint" wheel_name="left_wheel_link" x_offset="${wheel_offset_x}" y_offset="${wheel_offset_y}" z_offset="${wheel_offset_z}" roll="${-pi/2}">
+    </xacro:wheel_joint>
+    <!-- right wheel joint -->
+    <xacro:wheel_joint joint_name="right_wheel_joint" wheel_name="right_wheel_link" x_offset="${wheel_offset_x}" y_offset="${-wheel_offset_y}" z_offset="${wheel_offset_z}" roll="${pi/2}">
+    </xacro:wheel_joint>
+</robot>

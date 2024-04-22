@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<robot name="diff_bot"
+    xmlns:xacro="http://ros.org/wiki/xacro">
+    <link name="chassis_link">
+        <visual>
+            <geometry>
+                <box size="4.0 3.0 1.0"/>
+                <origin xyz="2.0 0.0 0.5" rpy="0.0 0.0 0.0"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="4.0 3.0 1.0"/>
+                <origin xyz="2.0 0.0 0.5" rpy="0.0 0.0 0.0"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_box mass="2.0" x="4.0" y="3.0" z="1.0">
+            <origin xyz="2.0 0.0 0.5" rpy="0.0 0.0 0.0"/>
+        </xacro:inertial_box>
+    </link>
+
+    <!-- Chassis joint -->
+    <joint name="chassis_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="chassis_link"/>
+        <origin xyz="-2.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+
+    </joint>
+</robot>
