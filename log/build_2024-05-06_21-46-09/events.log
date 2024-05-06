@@ -1,0 +1,1022 @@
+[0.000000] (-) TimerEvent: {}
+[0.000999] (diff_bot) JobQueued: {'identifier': 'diff_bot', 'dependencies': OrderedDict()}
+[0.001029] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.001047] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.001063] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/mazen/course_ws/src/install/serial')])}
+[0.001081] (serial) JobStarted: {'identifier': 'serial'}
+[0.007206] (diff_bot) JobStarted: {'identifier': 'diff_bot'}
+[0.011814] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.018853] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.019206] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/mazen/course_ws/src/serial', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/serial'], 'cwd': '/home/mazen/course_ws/src/build/serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[0.023582] (diff_bot) JobProgress: {'identifier': 'diff_bot', 'progress': 'cmake'}
+[0.025822] (diff_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/mazen/course_ws/src/diff_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/diff_bot'], 'cwd': '/home/mazen/course_ws/src/build/diff_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/diff_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[0.029862] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.031551] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/mazen/course_ws/src/rplidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/rplidar_ros'], 'cwd': '/home/mazen/course_ws/src/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[0.075125] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.075752] (diff_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.083431] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.100078] (-) TimerEvent: {}
+[0.128978] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.130950] (diff_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.133315] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.136381] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.136580] (diff_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.142814] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.191453] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.192278] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.197168] (diff_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.198176] (diff_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200134] (-) TimerEvent: {}
+[0.201084] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.201802] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.280010] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.284143] (diff_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.289019] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.293719] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.293990] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.294900] (diff_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.295265] (diff_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.296196] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.297338] (diff_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.300212] (-) TimerEvent: {}
+[0.305289] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.305757] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.309069] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.366248] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.367687] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.373087] (diff_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.374458] (diff_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400367] (-) TimerEvent: {}
+[0.406308] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.409165] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.496942] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500472] (-) TimerEvent: {}
+[0.501512] (diff_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.508178] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.510700] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.511404] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.513454] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.517567] (diff_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.518025] (diff_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.520049] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.521283] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.521677] (diff_bot) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.536413] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[0.569549] (serial) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.570041] (serial) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.581090] (diff_bot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.581362] (diff_bot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.583178] (rplidar_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.583423] (rplidar_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600573] (-) TimerEvent: {}
+[0.700866] (-) TimerEvent: {}
+[0.801266] (-) TimerEvent: {}
+[0.835411] (serial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.851869] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.857263] (diff_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.867628] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[0.873147] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  \n'}
+[0.875825] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.877348] (serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.878672] (diff_bot) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.879834] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.901332] (-) TimerEvent: {}
+[0.917373] (diff_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.923669] (diff_bot) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.986148] (serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.986428] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001512] (-) TimerEvent: {}
+[1.021535] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.028435] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.040648] (diff_bot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.059509] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.059810] (serial) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[1.071555] (diff_bot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.101637] (-) TimerEvent: {}
+[1.108988] (rplidar_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.129705] (serial) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[1.130912] (serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.138641] (rplidar_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.147935] (diff_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.195988] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.201682] (diff_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.201813] (-) TimerEvent: {}
+[1.203158] (diff_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.204003] (diff_bot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.210142] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[1.212537] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/mazen/course_ws/src/build/serial\n'}
+[1.217865] (serial) CommandEnded: {'returncode': 0}
+[1.219796] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[1.219863] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mazen/course_ws/src/build/serial', '--', '-j8', '-l8'], 'cwd': '/home/mazen/course_ws/src/build/serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[1.223621] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.258085] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[1.258318] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial\x1b[0m\n'}
+[1.261382] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[1.274557] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[1.274857] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[1.274981] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[1.275346] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.275603] (diff_bot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.275962] (diff_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.286948] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.301933] (-) TimerEvent: {}
+[1.304722] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.307311] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.308586] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.402054] (-) TimerEvent: {}
+[1.406102] (diff_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.406477] (diff_bot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.501557] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.502097] (-) TimerEvent: {}
+[1.502417] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.559369] (diff_bot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.560376] (diff_bot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.604018] (-) TimerEvent: {}
+[1.705567] (-) TimerEvent: {}
+[1.747953] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.748267] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.762426] (diff_bot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.764099] (diff_bot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.805696] (-) TimerEvent: {}
+[1.926188] (-) TimerEvent: {}
+[1.928550] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.929368] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.026347] (-) TimerEvent: {}
+[2.126906] (-) TimerEvent: {}
+[2.128133] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.132458] (rplidar_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.174255] (diff_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.227009] (-) TimerEvent: {}
+[2.314500] (diff_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.319109] (diff_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.320170] (diff_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.321100] (diff_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.323476] (diff_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.327103] (-) TimerEvent: {}
+[2.328413] (diff_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.331818] (diff_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[2.334647] (diff_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/mazen/course_ws/src/build/diff_bot\n'}
+[2.336685] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[2.345444] (diff_bot) CommandEnded: {'returncode': 0}
+[2.346395] (diff_bot) JobProgress: {'identifier': 'diff_bot', 'progress': 'build'}
+[2.347020] (diff_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mazen/course_ws/src/build/diff_bot', '--', '-j8', '-l8'], 'cwd': '/home/mazen/course_ws/src/build/diff_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/diff_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[2.408445] (serial) StdoutLine: {'line': b'[ 42%] Built target serial\n'}
+[2.419226] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_example\x1b[0m\n'}
+[2.427214] (-) TimerEvent: {}
+[2.428596] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[2.431303] (diff_bot) CommandEnded: {'returncode': 0}
+[2.477675] (diff_bot) JobProgress: {'identifier': 'diff_bot', 'progress': 'install'}
+[2.493936] (diff_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mazen/course_ws/src/build/diff_bot'], 'cwd': '/home/mazen/course_ws/src/build/diff_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/diff_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[2.503025] (diff_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.503774] (diff_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.504261] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/caster_wheel.xacro\n'}
+[2.512478] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/chassis.xacro\n'}
+[2.527579] (-) TimerEvent: {}
+[2.536981] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/control.xacro\n'}
+[2.554529] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/gazebo_control.xacro\n'}
+[2.572129] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/inertial_macros.xacro\n'}
+[2.581547] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/properties.xacro\n'}
+[2.590151] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/robot.urdf.xacro\n'}
+[2.598950] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/test.urdf\n'}
+[2.627451] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/wheels.xacro\n'}
+[2.627731] (-) TimerEvent: {}
+[2.643064] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/robot.launch.py\n'}
+[2.654393] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/rsp.launch.py\n'}
+[2.664209] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/simulation.launch.py\n'}
+[2.673275] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/config/diff_drive_controllel.yaml\n'}
+[2.681607] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/package_run_dependencies/diff_bot\n'}
+[2.689475] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/parent_prefix_path/diff_bot\n'}
+[2.698180] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/ament_prefix_path.sh\n'}
+[2.705807] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/ament_prefix_path.dsv\n'}
+[2.713592] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/path.sh\n'}
+[2.725642] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/path.dsv\n'}
+[2.728344] (-) TimerEvent: {}
+[2.755222] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.bash\n'}
+[2.769534] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.sh\n'}
+[2.778031] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[2.779188] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.zsh\n'}
+[2.788444] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.dsv\n'}
+[2.797198] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.dsv\n'}
+[2.828452] (-) TimerEvent: {}
+[2.831494] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/packages/diff_bot\n'}
+[2.847088] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/cmake/diff_botConfig.cmake\n'}
+[2.847544] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[2.852061] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.861173] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/cmake/diff_botConfig-version.cmake\n'}
+[2.871829] (diff_bot) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.xml\n'}
+[2.882026] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[2.892271] (diff_bot) CommandEnded: {'returncode': 0}
+[2.894279] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/mazen/course_ws/src/build/rplidar_ros\n'}
+[2.923051] (rplidar_ros) CommandEnded: {'returncode': 0}
+[2.924427] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[2.925132] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mazen/course_ws/src/build/rplidar_ros', '--', '-j8', '-l8'], 'cwd': '/home/mazen/course_ws/src/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[2.928576] (-) TimerEvent: {}
+[2.951319] (diff_bot) JobEnded: {'identifier': 'diff_bot', 'rc': 0}
+[2.968325] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rplidarNodeClient\x1b[0m\n'}
+[2.968550] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rplidar_composition_node\x1b[0m\n'}
+[2.971736] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rplidarNode\x1b[0m\n'}
+[3.028961] (-) TimerEvent: {}
+[3.034748] (rplidar_ros) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o\x1b[0m\n'}
+[3.046435] (rplidar_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[3.084460] (rplidar_ros) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[3.085403] (rplidar_ros) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[3.085813] (rplidar_ros) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[3.089869] (rplidar_ros) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[3.098468] (rplidar_ros) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[3.106911] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[3.129286] (-) TimerEvent: {}
+[3.149825] (rplidar_ros) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o\x1b[0m\n'}
+[3.229403] (-) TimerEvent: {}
+[3.330013] (-) TimerEvent: {}
+[3.366592] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[3.419682] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/client.cpp:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[3.420248] (rplidar_ros) StderrLine: {'line': b'   43 | #define M_PI 3.1415926535897932384626433832795\n'}
+[3.420430] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[3.420580] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cmath:45\x1b[m\x1b[K,\n'}
+[3.420724] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.420862] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.421000] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.421135] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.421269] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.421402] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[3.421549] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.421687] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.421830] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[3.421964] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.422119] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.422260] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[3.422395] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/client.cpp:38\x1b[m\x1b[K:\n'}
+[3.422532] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1070:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[3.422670] (rplidar_ros) StderrLine: {'line': b' 1070 | # define M_PI  3.14159265358979323846 /* pi */\n'}
+[3.422810] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[3.430152] (-) TimerEvent: {}
+[3.530485] (-) TimerEvent: {}
+[3.591536] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[3.591901] (rplidar_ros) StderrLine: {'line': b'   51 | #define M_PI 3.1415926535897932384626433832795\n'}
+[3.592164] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[3.592604] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cmath:45\x1b[m\x1b[K,\n'}
+[3.592872] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.593104] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.593334] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.593559] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.593787] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.594011] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[3.594231] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.594432] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.594630] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[3.594838] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.595006] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.595177] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[3.595353] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:36\x1b[m\x1b[K:\n'}
+[3.595543] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1070:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[3.595713] (rplidar_ros) StderrLine: {'line': b' 1070 | # define M_PI  3.14159265358979323846 /* pi */\n'}
+[3.595888] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[3.596827] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:231:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kinvalid suffix on literal; C++11 requires a space between literal and string macro [\x1b[01;35m\x1b[K-Wliteral-suffix\x1b[m\x1b[K]\n'}
+[3.597063] (rplidar_ros) StderrLine: {'line': b'  231 |     ROS_INFO(\x1b[01;35m\x1b[K"\x1b[m\x1b[KRPLIDAR running on ROS package rplidar_ros. SDK Version:"RPLIDAR_SDK_VERSION"");\n'}
+[3.597247] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.598875] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[3.599074] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[3.599205] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[3.599328] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[3.607385] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cmath:45\x1b[m\x1b[K,\n'}
+[3.607760] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.607930] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.608039] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.608140] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.608239] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.608337] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[3.608428] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.608521] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.608612] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[3.608711] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.608809] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.608920] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[3.609017] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[3.609113] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[3.609207] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1070:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[3.609304] (rplidar_ros) StderrLine: {'line': b' 1070 | # define M_PI  3.14159265358979323846 /* pi */\n'}
+[3.609408] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[3.630684] (-) TimerEvent: {}
+[3.731332] (-) TimerEvent: {}
+[3.831770] (-) TimerEvent: {}
+[3.906514] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[3.906894] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[3.907095] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[3.907264] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[3.907433] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[3.907594] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.907885] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[3.908056] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[3.908222] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[3.908384] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[3.908552] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[3.908714] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.920511] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::net::SocketAddress::getAddressAsString(char*, size_t) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.920778] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:170:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kordered comparison of pointer with integer zero [\x1b[01;35m\x1b[K-Wextra\x1b[m\x1b[K]\n'}
+[3.920920] (rplidar_ros) StderrLine: {'line': b'  170 |     return ans<=\x1b[01;35m\x1b[K0\x1b[m\x1b[K?RESULT_OPERATION_FAIL:RESULT_OK;\n'}
+[3.921057] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.928855] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.929143] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[3.929291] (rplidar_ros) StderrLine: {'line': b'  438 |         if (\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K) {\n'}
+[3.929407] (rplidar_ros) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.931872] (-) TimerEvent: {}
+[3.933460] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[3.933747] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:40\x1b[m\x1b[K,\n'}
+[3.933880] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[3.933989] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.934123] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[3.934239] (rplidar_ros) StderrLine: {'line': b'  726 |             assert(\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K);\n'}
+[3.934343] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.031985] (-) TimerEvent: {}
+[4.132350] (-) TimerEvent: {}
+[4.232739] (-) TimerEvent: {}
+[4.286478] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[4.286804] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[4.286995] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[4.287197] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.287392] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.287581] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.288596] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[4.288833] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[4.289009] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[4.289208] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.289364] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.289508] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.332844] (-) TimerEvent: {}
+[4.366794] (rplidar_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[4.367061] (rplidar_ros) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[4.371675] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.371922] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.372058] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[4.372181] (rplidar_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.372534] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.372760] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.372957] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[4.373079] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.373195] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.373313] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.373426] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[4.373543] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.373660] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.373776] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.373894] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[4.374022] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.413878] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[4.414255] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[4.414437] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[4.414617] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.414774] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.414929] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.415921] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[4.416222] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[4.416402] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[4.416556] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.416701] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.416842] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.419563] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[4.419859] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.420046] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wcast-function-type\x1b[m\x1b[K]\n'}
+[4.420204] (rplidar_ros) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))\x1b[01;35m\x1b[Kproc\x1b[m\x1b[K, data);\n'}
+[4.420354] (rplidar_ros) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.421655] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.421900] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.422098] (rplidar_ros) StderrLine: {'line': b'  129 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[4.422253] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.432988] (-) TimerEvent: {}
+[4.533683] (-) TimerEvent: {}
+[4.572691] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.573023] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.573243] (rplidar_ros) StderrLine: {'line': b'  121 | u_result RPlidarDriverImplCommon::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[4.573456] (rplidar_ros) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.576254] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.576523] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:274:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.576708] (rplidar_ros) StderrLine: {'line': b'  274 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[4.576876] (rplidar_ros) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.589210] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.589511] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:872:108:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[4.589668] (rplidar_ros) StderrLine: {'line': b'  872 |             const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.590669] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.593095] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.601576] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:996:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 in operand of \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wparentheses\x1b[m\x1b[K]\n'}
+[4.601762] (rplidar_ros) StderrLine: {'line': b'  996 |     _u8 leftBytes = \x1b[01;35m\x1b[K4 - len\x1b[m\x1b[K & 0x3;\n'}
+[4.601894] (rplidar_ros) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[4.602016] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.602172] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1207:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.602313] (rplidar_ros) StderrLine: {'line': b' 1207 |             if ((\x1b[01;35m\x1b[Kdist_predict1 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict1 == 0x1FF)) {\n'}
+[4.602447] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.602556] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1215:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.602672] (rplidar_ros) StderrLine: {'line': b' 1215 |             if ((\x1b[01;35m\x1b[Kdist_predict2 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict2 == 0x1FF)) {\n'}
+[4.602779] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.606170] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.606474] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1453:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.606606] (rplidar_ros) StderrLine: {'line': b' 1453 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, \x1b[01;35m\x1b[K_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[4.606713] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                    \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.607881] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.608127] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1550:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.608252] (rplidar_ros) StderrLine: {'line': b' 1550 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[K_u32 options\x1b[m\x1b[K, RplidarScanMode* outUsedScanMode)\n'}
+[4.608363] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.610618] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.610887] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1774:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.611024] (rplidar_ros) StderrLine: {'line': b' 1774 | u_result RPlidarDriverImplCommon::stop(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[4.611134] (rplidar_ros) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.633777] (-) TimerEvent: {}
+[4.637709] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.638230] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2162:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.638596] (rplidar_ros) StderrLine: {'line': b' 2162 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[4.638842] (rplidar_ros) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.643992] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.644400] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2240:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.644673] (rplidar_ros) StderrLine: {'line': b' 2240 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[4.644920] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.645164] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.645412] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2282:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.645656] (rplidar_ros) StderrLine: {'line': b' 2282 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[4.645888] (rplidar_ros) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.670938] (rplidar_ros) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[4.733900] (-) TimerEvent: {}
+[4.834557] (-) TimerEvent: {}
+[4.838608] (rplidar_ros) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[4.934664] (-) TimerEvent: {}
+[5.035164] (-) TimerEvent: {}
+[5.136030] (-) TimerEvent: {}
+[5.236719] (-) TimerEvent: {}
+[5.337231] (-) TimerEvent: {}
+[5.420596] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[5.420834] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[5.420975] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[5.421096] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.421218] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[5.421451] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.421604] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[5.421716] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[5.421823] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[5.421923] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.422018] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[5.422132] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.433584] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::net::SocketAddress::getAddressAsString(char*, size_t) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.433871] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:170:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kordered comparison of pointer with integer zero [\x1b[01;35m\x1b[K-Wextra\x1b[m\x1b[K]\n'}
+[5.434006] (rplidar_ros) StderrLine: {'line': b'  170 |     return ans<=\x1b[01;35m\x1b[K0\x1b[m\x1b[K?RESULT_OPERATION_FAIL:RESULT_OK;\n'}
+[5.434131] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.437642] (-) TimerEvent: {}
+[5.442366] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.442635] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.442778] (rplidar_ros) StderrLine: {'line': b'  438 |         if (\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K) {\n'}
+[5.442887] (rplidar_ros) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.447631] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[5.447928] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:40\x1b[m\x1b[K,\n'}
+[5.448060] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[5.448181] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.448290] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.449305] (rplidar_ros) StderrLine: {'line': b'  726 |             assert(\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K);\n'}
+[5.450347] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.539091] (-) TimerEvent: {}
+[5.597597] (rplidar_ros) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[5.639049] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.639548] (-) TimerEvent: {}
+[5.639854] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.640141] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[5.640389] (rplidar_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[5.641328] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.641812] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.642097] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[5.642490] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[5.642730] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.642970] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.643207] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[5.643439] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.643667] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.643920] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.644156] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[5.644389] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.739758] (-) TimerEvent: {}
+[5.840272] (-) TimerEvent: {}
+[5.931680] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[5.931844] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[5.931913] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[5.931976] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.932037] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[5.932102] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.932376] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[5.932451] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[5.932510] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[5.932567] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.932631] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[5.932687] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.935017] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[5.935148] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.935210] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wcast-function-type\x1b[m\x1b[K]\n'}
+[5.935276] (rplidar_ros) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))\x1b[01;35m\x1b[Kproc\x1b[m\x1b[K, data);\n'}
+[5.935336] (rplidar_ros) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.935990] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.936115] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.936176] (rplidar_ros) StderrLine: {'line': b'  129 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[5.936233] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.940407] (-) TimerEvent: {}
+[6.040786] (-) TimerEvent: {}
+[6.141611] (-) TimerEvent: {}
+[6.242109] (-) TimerEvent: {}
+[6.263847] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[6.264125] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[6.264573] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[6.264767] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[6.264934] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[6.265096] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.265364] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[6.265537] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[6.265694] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[6.265849] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[6.266006] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[6.266182] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.342206] (-) TimerEvent: {}
+[6.396226] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.396436] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.396549] (rplidar_ros) StderrLine: {'line': b'  121 | u_result RPlidarDriverImplCommon::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[6.396650] (rplidar_ros) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[6.397480] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.397627] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:274:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.397743] (rplidar_ros) StderrLine: {'line': b'  274 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[6.397846] (rplidar_ros) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[6.403206] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.403434] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:872:108:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[6.403550] (rplidar_ros) StderrLine: {'line': b'  872 |             const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.403658] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.404380] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.404510] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:996:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 in operand of \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wparentheses\x1b[m\x1b[K]\n'}
+[6.404615] (rplidar_ros) StderrLine: {'line': b'  996 |     _u8 leftBytes = \x1b[01;35m\x1b[K4 - len\x1b[m\x1b[K & 0x3;\n'}
+[6.404715] (rplidar_ros) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[6.406044] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.406229] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1207:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[6.406348] (rplidar_ros) StderrLine: {'line': b' 1207 |             if ((\x1b[01;35m\x1b[Kdist_predict1 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict1 == 0x1FF)) {\n'}
+[6.406453] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.406559] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1215:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[6.406667] (rplidar_ros) StderrLine: {'line': b' 1215 |             if ((\x1b[01;35m\x1b[Kdist_predict2 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict2 == 0x1FF)) {\n'}
+[6.406766] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.411896] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.412106] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1453:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.412221] (rplidar_ros) StderrLine: {'line': b' 1453 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, \x1b[01;35m\x1b[K_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[6.412328] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                    \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.415746] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.416951] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1550:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.417901] (rplidar_ros) StderrLine: {'line': b' 1550 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[K_u32 options\x1b[m\x1b[K, RplidarScanMode* outUsedScanMode)\n'}
+[6.420043] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[6.426151] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.426804] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1774:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.427355] (rplidar_ros) StderrLine: {'line': b' 1774 | u_result RPlidarDriverImplCommon::stop(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[6.427862] (rplidar_ros) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[6.437953] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.438485] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2162:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.438812] (rplidar_ros) StderrLine: {'line': b' 2162 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[6.439129] (rplidar_ros) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[6.440642] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.440932] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2240:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.441183] (rplidar_ros) StderrLine: {'line': b' 2240 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[6.441427] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[6.441903] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.442208] (-) TimerEvent: {}
+[6.442498] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2282:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.442765] (rplidar_ros) StderrLine: {'line': b' 2282 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[6.443010] (rplidar_ros) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[6.542415] (-) TimerEvent: {}
+[6.642921] (-) TimerEvent: {}
+[6.743353] (-) TimerEvent: {}
+[6.843707] (-) TimerEvent: {}
+[6.875313] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[6.875530] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:45\x1b[m\x1b[K:\n'}
+[6.875648] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[6.875758] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[6.875877] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.876676] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[6.877776] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:45\x1b[m\x1b[K:\n'}
+[6.878968] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[6.880076] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[6.881083] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.939719] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool stop_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.939967] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:166:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.940110] (rplidar_ros) StderrLine: {'line': b'  166 | bool stop_motor(\x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[6.940245] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.940354] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:167:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.940478] (rplidar_ros) StderrLine: {'line': b'  167 |                 \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res\x1b[m\x1b[K)\n'}
+[6.940596] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.940807] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool start_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.940946] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:178:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.941069] (rplidar_ros) StderrLine: {'line': b'  178 | bool start_motor(\x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[6.941189] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.941310] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:179:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.941434] (rplidar_ros) StderrLine: {'line': b'  179 |                  \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res\x1b[m\x1b[K)\n'}
+[6.941555] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.943821] (-) TimerEvent: {}
+[6.976548] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.976774] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:356:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kangle_compensate_nodes\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[6.976896] (rplidar_ros) StderrLine: {'line': b'  356 |                     rplidar_response_measurement_node_hq_t \x1b[01;35m\x1b[Kangle_compensate_nodes\x1b[m\x1b[K[angle_compensate_nodes_count];\n'}
+[6.977002] (rplidar_ros) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.977102] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/node.cpp:360:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[6.977213] (rplidar_ros) StderrLine: {'line': b'  360 |                     for( ; \x1b[01;35m\x1b[Ki < count\x1b[m\x1b[K; i++ ) {\n'}
+[6.977313] (rplidar_ros) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~^~~~~~~\x1b[m\x1b[K\n'}
+[7.015848] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[7.016054] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[7.016168] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[7.016277] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[7.016376] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[7.016517] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.016669] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[7.016771] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[7.016873] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[7.016972] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[7.017075] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[7.017180] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.043927] (-) TimerEvent: {}
+[7.128355] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.128553] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:245:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.128668] (rplidar_ros) StderrLine: {'line': b'  245 | void rplidar_node::stop_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[7.128761] (rplidar_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.128858] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:245:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.128950] (rplidar_ros) StderrLine: {'line': b'  245 | void rplidar_node::stop_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[7.129039] (rplidar_ros) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.129214] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.129317] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:256:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.129410] (rplidar_ros) StderrLine: {'line': b'  256 | void rplidar_node::start_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[7.129501] (rplidar_ros) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.129588] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:256:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.129676] (rplidar_ros) StderrLine: {'line': b'  256 | void rplidar_node::start_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[7.129764] (rplidar_ros) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.138666] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::publish_loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.138860] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:343:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kangle_compensate_nodes\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[7.138961] (rplidar_ros) StderrLine: {'line': b'  343 |       rplidar_response_measurement_node_hq_t \x1b[01;35m\x1b[Kangle_compensate_nodes\x1b[m\x1b[K[angle_compensate_nodes_count];\n'}
+[7.139096] (rplidar_ros) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.139187] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:353:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[7.139283] (rplidar_ros) StderrLine: {'line': b'  353 |           for (j = 0; \x1b[01;35m\x1b[Kj < m_angle_compensate_multiple\x1b[m\x1b[K; j++) {\n'}
+[7.139370] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.140415] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:374:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[7.140544] (rplidar_ros) StderrLine: {'line': b'  374 |       for (size_t x = start_node, y = 0; \x1b[01;35m\x1b[Kx < end_node\x1b[m\x1b[K; ++x, ++y) {\n'}
+[7.140636] (rplidar_ros) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.140782] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:381:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_min\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[7.140882] (rplidar_ros) StderrLine: {'line': b'  381 |     float \x1b[01;35m\x1b[Kangle_min\x1b[m\x1b[K = deg_2_rad(0.0f);\n'}
+[7.140972] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.141060] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/rplidar_node.cpp:382:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_max\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[7.141150] (rplidar_ros) StderrLine: {'line': b'  382 |     float \x1b[01;35m\x1b[Kangle_max\x1b[m\x1b[K = deg_2_rad(359.0f);\n'}
+[7.141239] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.144017] (-) TimerEvent: {}
+[7.244297] (-) TimerEvent: {}
+[7.344636] (-) TimerEvent: {}
+[7.432210] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[7.444753] (-) TimerEvent: {}
+[7.502298] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[7.514313] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial-test\x1b[0m\n'}
+[7.516589] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial-test-timer\x1b[0m\n'}
+[7.530268] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[7.536321] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[7.544874] (-) TimerEvent: {}
+[7.645217] (-) TimerEvent: {}
+[7.745588] (-) TimerEvent: {}
+[7.846045] (-) TimerEvent: {}
+[7.946445] (-) TimerEvent: {}
+[8.046786] (-) TimerEvent: {}
+[8.147134] (-) TimerEvent: {}
+[8.247471] (-) TimerEvent: {}
+[8.283078] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[8.347616] (-) TimerEvent: {}
+[8.453323] (-) TimerEvent: {}
+[8.495899] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[8.553435] (-) TimerEvent: {}
+[8.653760] (-) TimerEvent: {}
+[8.754132] (-) TimerEvent: {}
+[8.854467] (-) TimerEvent: {}
+[8.954698] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[8.954984] (-) TimerEvent: {}
+[9.055281] (-) TimerEvent: {}
+[9.120337] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[9.132046] (serial) CommandEnded: {'returncode': 0}
+[9.155417] (-) TimerEvent: {}
+[9.161959] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[9.163624] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mazen/course_ws/src/build/serial'], 'cwd': '/home/mazen/course_ws/src/build/serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[9.172178] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.172610] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.173014] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/lib/libserial.a\n'}
+[9.182103] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/include/serial/serial.h\n'}
+[9.190793] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/include/serial/v8stdint.h\n'}
+[9.199552] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/library_path.sh\n'}
+[9.208103] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/library_path.dsv\n'}
+[9.217203] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[9.226554] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[9.235973] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[9.244934] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[9.253425] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/path.sh\n'}
+[9.255489] (-) TimerEvent: {}
+[9.262512] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/path.dsv\n'}
+[9.272596] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/local_setup.bash\n'}
+[9.282931] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/local_setup.sh\n'}
+[9.293541] (rplidar_ros) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable rplidarNode\x1b[0m\n'}
+[9.295408] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/local_setup.zsh\n'}
+[9.304553] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/local_setup.dsv\n'}
+[9.317054] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/package.dsv\n'}
+[9.326815] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[9.336940] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.347633] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.355612] (-) TimerEvent: {}
+[9.357899] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[9.368336] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[9.378651] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/package.xml\n'}
+[9.391319] (serial) CommandEnded: {'returncode': 0}
+[9.444984] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[9.446373] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[9.455984] (-) TimerEvent: {}
+[9.456536] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[9.457061] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/diffdrive_arduino'], 'cwd': '/home/mazen/course_ws/src/build/diffdrive_arduino', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/src/install/serial/lib:/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/src/install/serial:/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/src/install/serial:/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[9.556114] (-) TimerEvent: {}
+[9.656424] (-) TimerEvent: {}
+[9.756735] (-) TimerEvent: {}
+[9.819754] (diffdrive_arduino) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[9.856884] (-) TimerEvent: {}
+[9.957152] (-) TimerEvent: {}
+[10.057531] (-) TimerEvent: {}
+[10.092671] (rplidar_ros) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library librplidar_composition_node.so\x1b[0m\n'}
+[10.157652] (-) TimerEvent: {}
+[10.258064] (-) TimerEvent: {}
+[10.358354] (-) TimerEvent: {}
+[10.472493] (-) TimerEvent: {}
+[10.483100] (rplidar_ros) StdoutLine: {'line': b'[ 83%] Built target rplidar_composition_node\n'}
+[10.514707] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rplidar_composition\x1b[0m\n'}
+[10.536540] (diffdrive_arduino) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[10.542944] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[10.572609] (-) TimerEvent: {}
+[10.672987] (-) TimerEvent: {}
+[10.773952] (-) TimerEvent: {}
+[10.874924] (-) TimerEvent: {}
+[10.928902] (rplidar_ros) StdoutLine: {'line': b'[ 83%] Built target rplidarNode\n'}
+[10.959977] (rplidar_ros) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o\x1b[0m\n'}
+[10.975033] (-) TimerEvent: {}
+[11.056067] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[11.056286] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[11.056351] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[11.056403] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[11.056453] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cmath:45\x1b[m\x1b[K,\n'}
+[11.056502] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[11.056564] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[11.056613] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[11.056664] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[11.056713] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[11.056761] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[11.056810] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.056861] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.056909] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[11.056957] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[11.057004] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.057051] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[11.057097] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[11.057144] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[11.057192] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1070:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[11.057239] (rplidar_ros) StderrLine: {'line': b' 1070 | # define M_PI  3.14159265358979323846 /* pi */\n'}
+[11.057286] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[11.075140] (-) TimerEvent: {}
+[11.175467] (-) TimerEvent: {}
+[11.194710] (rplidar_ros) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable rplidarNodeClient\x1b[0m\n'}
+[11.275591] (-) TimerEvent: {}
+[11.352474] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[11.353573] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.375706] (-) TimerEvent: {}
+[11.476056] (-) TimerEvent: {}
+[11.576336] (-) TimerEvent: {}
+[11.676647] (-) TimerEvent: {}
+[11.682073] (rplidar_ros) StdoutLine: {'line': b'[ 94%] Built target rplidarNodeClient\n'}
+[11.715127] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.732462] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.732822] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.734976] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[11.776760] (-) TimerEvent: {}
+[11.877069] (-) TimerEvent: {}
+[11.977393] (-) TimerEvent: {}
+[12.077747] (-) TimerEvent: {}
+[12.082279] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[12.083183] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[12.177856] (-) TimerEvent: {}
+[12.199062] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[12.199260] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[12.199403] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[12.199502] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[12.199606] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.199706] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.199848] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[12.199958] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[12.200053] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[12.200147] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[12.200240] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.200331] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.277967] (-) TimerEvent: {}
+[12.378289] (-) TimerEvent: {}
+[12.462459] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.473461] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.473866] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.475759] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[12.478358] (-) TimerEvent: {}
+[12.495835] (diffdrive_arduino) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[12.496048] (diffdrive_arduino) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.537321] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[12.537507] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazen/course_ws/src/rplidar_ros2/include/rplidar_node.hpp:76:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[12.537612] (rplidar_ros) StderrLine: {'line': b'   76 | static float \x1b[01;35m\x1b[KgetAngle\x1b[m\x1b[K(const rplidar_response_measurement_node_hq_t& node)\n'}
+[12.537705] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.578465] (-) TimerEvent: {}
+[12.653041] (diffdrive_arduino) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[12.672240] (diffdrive_arduino) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/mazen/course_ws/src/install/serial/share/serial/cmake)\n'}
+[12.678528] (-) TimerEvent: {}
+[12.778824] (-) TimerEvent: {}
+[12.835980] (rplidar_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[12.878827] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)\n'}
+[12.879279] (-) TimerEvent: {}
+[12.979688] (-) TimerEvent: {}
+[13.080106] (-) TimerEvent: {}
+[13.172997] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[13.180308] (-) TimerEvent: {}
+[13.213301] (rplidar_ros) CommandEnded: {'returncode': 0}
+[13.259663] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[13.260182] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mazen/course_ws/src/build/rplidar_ros'], 'cwd': '/home/mazen/course_ws/src/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[13.273411] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.274022] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.274706] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidarNode\n'}
+[13.280390] (-) TimerEvent: {}
+[13.286371] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient\n'}
+[13.298141] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[13.310783] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[13.322903] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[13.334447] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[13.346194] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[13.357846] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch.py\n'}
+[13.366344] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[13.374704] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[13.380525] (-) TimerEvent: {}
+[13.383495] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[13.392475] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[13.401131] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[13.410627] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[13.419320] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[13.427970] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[13.436486] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/include/visibility.h\n'}
+[13.445163] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidarNode\n'}
+[13.445439] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient\n'}
+[13.445675] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[13.445849] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[13.454378] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[13.462245] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[13.470025] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[13.477722] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[13.480635] (-) TimerEvent: {}
+[13.485414] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[13.493435] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[13.501286] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[13.509280] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[13.517471] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[13.525825] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[13.533687] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[13.541606] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.555675] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.564403] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[13.572582] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[13.580776] (-) TimerEvent: {}
+[13.580985] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[13.591210] (rplidar_ros) CommandEnded: {'returncode': 0}
+[13.681091] (-) TimerEvent: {}
+[13.782002] (-) TimerEvent: {}
+[13.882808] (-) TimerEvent: {}
+[13.987915] (-) TimerEvent: {}
+[13.997069] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[14.088100] (-) TimerEvent: {}
+[14.188874] (-) TimerEvent: {}
+[14.289504] (-) TimerEvent: {}
+[14.365878] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.372927] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[14.389631] (-) TimerEvent: {}
+[14.440231] (diffdrive_arduino) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[14.464536] (diffdrive_arduino) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[14.489761] (-) TimerEvent: {}
+[14.528070] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.590151] (-) TimerEvent: {}
+[14.690932] (-) TimerEvent: {}
+[14.791711] (-) TimerEvent: {}
+[14.892411] (-) TimerEvent: {}
+[14.993053] (-) TimerEvent: {}
+[15.093450] (-) TimerEvent: {}
+[15.194136] (-) TimerEvent: {}
+[15.294679] (-) TimerEvent: {}
+[15.395418] (-) TimerEvent: {}
+[15.496052] (-) TimerEvent: {}
+[15.596575] (-) TimerEvent: {}
+[15.697308] (-) TimerEvent: {}
+[15.798018] (-) TimerEvent: {}
+[15.898265] (-) TimerEvent: {}
+[15.998549] (-) TimerEvent: {}
+[16.098978] (-) TimerEvent: {}
+[16.199855] (-) TimerEvent: {}
+[16.300460] (-) TimerEvent: {}
+[16.401112] (-) TimerEvent: {}
+[16.435734] (diffdrive_arduino) StdoutLine: {'line': b'-- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)\n'}
+[16.501239] (-) TimerEvent: {}
+[16.547716] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[16.549010] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.549750] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[16.601359] (-) TimerEvent: {}
+[16.609648] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[16.609924] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[16.670380] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[16.670664] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[16.701497] (-) TimerEvent: {}
+[16.718455] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[16.718860] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[16.775570] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[16.776538] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[16.801636] (-) TimerEvent: {}
+[16.901898] (-) TimerEvent: {}
+[17.002227] (-) TimerEvent: {}
+[17.102513] (-) TimerEvent: {}
+[17.202804] (-) TimerEvent: {}
+[17.303093] (-) TimerEvent: {}
+[17.403399] (-) TimerEvent: {}
+[17.498894] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.503519] (-) TimerEvent: {}
+[17.603922] (-) TimerEvent: {}
+[17.704312] (-) TimerEvent: {}
+[17.804970] (-) TimerEvent: {}
+[17.905709] (-) TimerEvent: {}
+[18.006484] (-) TimerEvent: {}
+[18.026256] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[18.027833] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/mazen/course_ws/src/build/diffdrive_arduino\n'}
+[18.035434] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[18.036127] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[18.037357] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mazen/course_ws/src/build/diffdrive_arduino', '--', '-j8', '-l8'], 'cwd': '/home/mazen/course_ws/src/build/diffdrive_arduino', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/src/install/serial/lib:/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/src/install/serial:/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/src/install/serial:/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[18.070536] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fake_robot\x1b[0m\n'}
+[18.070699] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target diffdrive_arduino\x1b[0m\n'}
+[18.106555] (-) TimerEvent: {}
+[18.129103] (diffdrive_arduino) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[18.131021] (diffdrive_arduino) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o\x1b[0m\n'}
+[18.131474] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o\x1b[0m\n'}
+[18.140027] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o\x1b[0m\n'}
+[18.141565] (diffdrive_arduino) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[18.206681] (-) TimerEvent: {}
+[18.307028] (-) TimerEvent: {}
+[18.407528] (-) TimerEvent: {}
+[18.507797] (-) TimerEvent: {}
+[18.608091] (-) TimerEvent: {}
+[18.708397] (-) TimerEvent: {}
+[18.808703] (-) TimerEvent: {}
+[18.909043] (-) TimerEvent: {}
+[19.009322] (-) TimerEvent: {}
+[19.109602] (-) TimerEvent: {}
+[19.209894] (-) TimerEvent: {}
+[19.310150] (-) TimerEvent: {}
+[19.410468] (-) TimerEvent: {}
+[19.513340] (-) TimerEvent: {}
+[19.613674] (-) TimerEvent: {}
+[19.713938] (-) TimerEvent: {}
+[19.814223] (-) TimerEvent: {}
+[19.914524] (-) TimerEvent: {}
+[20.014789] (-) TimerEvent: {}
+[20.115133] (-) TimerEvent: {}
+[20.215440] (-) TimerEvent: {}
+[20.315731] (-) TimerEvent: {}
+[20.416018] (-) TimerEvent: {}
+[20.516352] (-) TimerEvent: {}
+[20.616627] (-) TimerEvent: {}
+[20.636056] (diffdrive_arduino) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libfake_robot.so\x1b[0m\n'}
+[20.644327] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[20.716865] (-) TimerEvent: {}
+[20.817503] (-) TimerEvent: {}
+[20.918137] (-) TimerEvent: {}
+[21.018819] (-) TimerEvent: {}
+[21.074120] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target fake_robot\n'}
+[21.088332] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[21.100097] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[21.118933] (-) TimerEvent: {}
+[21.128534] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[21.128710] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mazen/course_ws/src/build/diffdrive_arduino'], 'cwd': '/home/mazen/course_ws/src/build/diffdrive_arduino', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazen'), ('LC_TIME', 'ar_EG.UTF-8'), ('SSH_AGENT_PID', '1935'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/course_ws/src/install/serial/lib:/home/mazen/course_ws/install/serial/lib:/home/mazen/course_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/course_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1830'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mazen/course_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:49437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mazen-Inspiron-5583:@/tmp/.ICE-unix/1973,unix/mazen-Inspiron-5583:/tmp/.ICE-unix/1973'), ('INVOCATION_ID', '3de32b6ccd03453c906a43fbf8c2155d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/184e97bb_77cf_4dac_b249_49e324274e09'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/course_ws/src/install/serial:/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/course_ws/src/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mazen/course_ws/src/install/serial:/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy')]), 'shell': False}
+[21.136456] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.136876] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.137194] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml\n'}
+[21.145445] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml\n'}
+[21.154387] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[21.162712] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[21.170853] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[21.179248] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[21.187634] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[21.195811] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[21.204207] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[21.212531] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[21.219039] (-) TimerEvent: {}
+[21.220846] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[21.229189] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[21.237510] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[21.245654] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[21.254249] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[21.262733] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[21.271387] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[21.279836] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[21.288723] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[21.297439] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[21.305381] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[21.313179] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[21.319164] (-) TimerEvent: {}
+[21.321080] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.329174] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.337099] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[21.345195] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[21.353605] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[21.363188] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[21.397752] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[21.398440] (-) EventReactorShutdown: {}

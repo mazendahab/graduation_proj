@@ -1,0 +1,35 @@
+[0.051s] Invoking command in '/home/mazen/course_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy LD_LIBRARY_PATH=/home/mazen/course_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mazen/course_ws/src/build/diffdrive_arduino -- -j8 -l8
+[0.110s] [ 85%] Built target fake_robot
+[0.110s] [100%] Built target diffdrive_arduino
+[0.119s] Invoked command in '/home/mazen/course_ws/src/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy LD_LIBRARY_PATH=/home/mazen/course_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mazen/course_ws/src/build/diffdrive_arduino -- -j8 -l8
+[0.146s] Invoking command in '/home/mazen/course_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy LD_LIBRARY_PATH=/home/mazen/course_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mazen/course_ws/src/build/diffdrive_arduino
+[0.153s] -- Install configuration: ""
+[0.153s] -- Execute custom install script
+[0.154s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[0.154s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[0.155s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[0.155s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/lib/libfake_robot.so
+[0.156s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[0.156s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[0.156s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[0.157s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[0.157s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[0.157s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[0.158s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[0.158s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[0.158s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[0.159s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[0.159s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[0.159s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[0.160s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[0.160s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[0.160s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[0.161s] -- Symlinking: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[0.169s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[0.169s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[0.169s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[0.169s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.170s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[0.170s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[0.170s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[0.173s] Invoked command in '/home/mazen/course_ws/src/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:/home/mazen/course_ws/install/serial:/home/mazen/course_ws/install/rplidar_ros:/home/mazen/course_ws/install/diff_bot:/opt/ros/foxy LD_LIBRARY_PATH=/home/mazen/course_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mazen/course_ws/src/build/diffdrive_arduino

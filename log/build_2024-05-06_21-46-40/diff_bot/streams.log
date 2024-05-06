@@ -1,0 +1,34 @@
+[0.721s] Invoking command in '/home/mazen/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/diff_bot -- -j8 -l8
+[0.959s] Invoked command in '/home/mazen/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/diff_bot -- -j8 -l8
+[0.994s] Invoking command in '/home/mazen/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/diff_bot
+[1.003s] -- Install configuration: ""
+[1.004s] -- Execute custom install script
+[1.005s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/caster_wheel.xacro
+[1.005s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/chassis.xacro
+[1.005s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/control.xacro
+[1.005s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/gazebo_control.xacro
+[1.006s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/inertial_macros.xacro
+[1.006s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/properties.xacro
+[1.006s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/robot.urdf.xacro
+[1.006s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/test.urdf
+[1.007s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/wheels.xacro
+[1.007s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/robot.launch.py
+[1.007s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/rsp.launch.py
+[1.007s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/simulation.launch.py
+[1.008s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/config/diff_drive_controllel.yaml
+[1.008s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/package_run_dependencies/diff_bot
+[1.009s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/parent_prefix_path/diff_bot
+[1.009s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/ament_prefix_path.sh
+[1.010s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/ament_prefix_path.dsv
+[1.010s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/path.sh
+[1.011s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/path.dsv
+[1.011s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.bash
+[1.011s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.sh
+[1.012s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.zsh
+[1.012s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.dsv
+[1.012s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.dsv
+[1.022s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/packages/diff_bot
+[1.023s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/cmake/diff_botConfig.cmake
+[1.023s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/cmake/diff_botConfig-version.cmake
+[1.023s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.xml
+[1.025s] Invoked command in '/home/mazen/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/diff_bot

@@ -1,0 +1,6 @@
+Invoking command in '/home/mazen/course_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/rplidar_ros
+Invoked command in '/home/mazen/course_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/rplidar_ros
+Invoking command in '/home/mazen/course_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/rplidar_ros -- -j8 -l8
+Invoked command in '/home/mazen/course_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/rplidar_ros -- -j8 -l8
+Invoking command in '/home/mazen/course_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/rplidar_ros
+Invoked command in '/home/mazen/course_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/rplidar_ros

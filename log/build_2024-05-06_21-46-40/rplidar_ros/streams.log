@@ -1,0 +1,47 @@
+[0.773s] Invoking command in '/home/mazen/course_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/rplidar_ros -- -j8 -l8
+[0.845s] [ 38%] Built target rplidarNode
+[0.847s] [ 77%] Built target rplidar_composition_node
+[0.847s] [ 88%] Built target rplidarNodeClient
+[0.875s] [100%] Built target rplidar_composition
+[1.350s] Invoked command in '/home/mazen/course_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/rplidar_ros -- -j8 -l8
+[1.846s] Invoking command in '/home/mazen/course_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/rplidar_ros
+[1.856s] -- Install configuration: ""
+[1.856s] -- Execute custom install script
+[1.857s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[1.857s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[1.857s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[1.858s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[1.858s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[1.858s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[1.859s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[1.859s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch.py
+[1.859s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[1.859s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[1.859s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[1.860s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[1.860s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[1.860s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[1.861s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/lib/librplidar_composition_node.so
+[1.861s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/include/rplidar_node.hpp
+[1.861s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/include/visibility.h
+[1.862s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[1.862s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[1.863s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[1.863s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[1.864s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[1.864s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[1.864s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[1.865s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[1.865s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[1.865s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[1.865s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[1.866s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[1.866s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[1.866s] -- Symlinking: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.dsv
+[1.878s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[1.878s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.879s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.879s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[1.879s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[1.880s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.386s] Invoked command in '/home/mazen/course_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/rplidar_ros

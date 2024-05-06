@@ -1,0 +1,80 @@
+[0.019s] Invoking command in '/home/mazen/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/diff_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/diff_bot
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.123s] -- The CXX compiler identification is GNU 9.4.0
+[0.129s] -- Check for working C compiler: /usr/bin/cc
+[0.190s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.191s] -- Detecting C compiler ABI info
+[0.277s] -- Detecting C compiler ABI info - done
+[0.287s] -- Detecting C compile features
+[0.288s] -- Detecting C compile features - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++
+[0.366s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.367s] -- Detecting CXX compiler ABI info
+[0.494s] -- Detecting CXX compiler ABI info - done
+[0.510s] -- Detecting CXX compile features
+[0.511s] -- Detecting CXX compile features - done
+[0.514s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.574s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.574s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.850s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.871s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.910s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.916s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.033s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.064s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.194s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.196s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.197s] -- Looking for pthread.h
+[1.268s] -- Looking for pthread.h - found
+[1.269s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.399s] -- Looking for pthread_create in pthreads
+[1.552s] -- Looking for pthread_create in pthreads - not found
+[1.553s] -- Looking for pthread_create in pthread
+[1.755s] -- Looking for pthread_create in pthread - found
+[1.757s] -- Found Threads: TRUE  
+[2.167s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.307s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.312s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.313s] -- Added test 'lint_cmake' to check CMake code style
+[2.314s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.316s] -- Added test 'xmllint' to check XML markup files
+[2.321s] -- Configuring done
+[2.324s] -- Generating done
+[2.327s] -- Build files have been written to: /home/mazen/course_ws/src/build/diff_bot
+[2.338s] Invoked command in '/home/mazen/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/diff_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/diff_bot
+[2.342s] Invoking command in '/home/mazen/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/diff_bot -- -j8 -l8
+[2.424s] Invoked command in '/home/mazen/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/diff_bot -- -j8 -l8
+[2.487s] Invoking command in '/home/mazen/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/diff_bot
+[2.496s] -- Install configuration: ""
+[2.496s] -- Execute custom install script
+[2.497s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/caster_wheel.xacro
+[2.505s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/chassis.xacro
+[2.530s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/control.xacro
+[2.547s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/gazebo_control.xacro
+[2.565s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/inertial_macros.xacro
+[2.574s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/properties.xacro
+[2.583s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/robot.urdf.xacro
+[2.592s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/test.urdf
+[2.620s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/wheels.xacro
+[2.636s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/robot.launch.py
+[2.647s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/rsp.launch.py
+[2.657s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/simulation.launch.py
+[2.666s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/config/diff_drive_controllel.yaml
+[2.674s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/package_run_dependencies/diff_bot
+[2.682s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/parent_prefix_path/diff_bot
+[2.691s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/ament_prefix_path.sh
+[2.698s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/ament_prefix_path.dsv
+[2.706s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/path.sh
+[2.719s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/path.dsv
+[2.748s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.bash
+[2.762s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.sh
+[2.772s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.zsh
+[2.781s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.dsv
+[2.790s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.dsv
+[2.824s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/packages/diff_bot
+[2.840s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/cmake/diff_botConfig.cmake
+[2.854s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/cmake/diff_botConfig-version.cmake
+[2.864s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.xml
+[2.886s] Invoked command in '/home/mazen/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/diff_bot

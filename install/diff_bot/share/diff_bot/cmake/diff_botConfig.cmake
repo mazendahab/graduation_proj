@@ -1,0 +1,1 @@
+/home/mazen/course_ws/src/build/diff_bot/ament_cmake_core/diff_botConfig.cmake

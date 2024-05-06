@@ -1,0 +1,87 @@
+[0.021s] Invoking command in '/home/mazen/course_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/serial
+[0.074s] -- The C compiler identification is GNU 9.4.0
+[0.128s] -- The CXX compiler identification is GNU 9.4.0
+[0.132s] -- Check for working C compiler: /usr/bin/cc
+[0.191s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.191s] -- Detecting C compiler ABI info
+[0.279s] -- Detecting C compiler ABI info - done
+[0.293s] -- Detecting C compile features
+[0.293s] -- Detecting C compile features - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++
+[0.365s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.367s] -- Detecting CXX compiler ABI info
+[0.496s] -- Detecting CXX compiler ABI info - done
+[0.510s] -- Detecting CXX compile features
+[0.510s] -- Detecting CXX compile features - done
+[0.512s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.569s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.569s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.835s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.867s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.872s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[0.875s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.876s] -- Looking for pthread.h
+[0.985s] -- Looking for pthread.h - found
+[0.985s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.059s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.059s] -- Check if compiler accepts -pthread
+[1.129s] -- Check if compiler accepts -pthread - yes
+[1.130s] -- Found Threads: TRUE  
+[1.195s] -- Configuring done
+[1.209s] -- Generating done
+[1.212s] -- Build files have been written to: /home/mazen/course_ws/src/build/serial
+[1.217s] Invoked command in '/home/mazen/course_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/serial
+[1.219s] Invoking command in '/home/mazen/course_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/serial -- -j8 -l8
+[1.257s] [35m[1mScanning dependencies of target gtest_main[0m
+[1.257s] [35m[1mScanning dependencies of target serial[0m
+[1.260s] [35m[1mScanning dependencies of target gtest[0m
+[1.274s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.274s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[1.274s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[1.274s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.286s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.336s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[2.408s] [ 42%] Built target serial
+[2.418s] [35m[1mScanning dependencies of target serial_example[0m
+[2.428s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[2.777s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.847s] [ 57%] Built target gtest_main
+[3.106s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[3.366s] [ 64%] Built target serial_example
+[7.431s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.501s] [ 71%] Built target gtest
+[7.513s] [35m[1mScanning dependencies of target serial-test[0m
+[7.516s] [35m[1mScanning dependencies of target serial-test-timer[0m
+[7.529s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[7.535s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[8.282s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[8.495s] [ 92%] Built target serial-test-timer
+[8.954s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[9.120s] [100%] Built target serial-test
+[9.131s] Invoked command in '/home/mazen/course_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/serial -- -j8 -l8
+[9.163s] Invoking command in '/home/mazen/course_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/serial
+[9.171s] -- Install configuration: ""
+[9.172s] -- Execute custom install script
+[9.172s] -- Symlinking: /home/mazen/course_ws/src/install/serial/lib/libserial.a
+[9.181s] -- Symlinking: /home/mazen/course_ws/src/install/serial/include/serial/serial.h
+[9.190s] -- Symlinking: /home/mazen/course_ws/src/install/serial/include/serial/v8stdint.h
+[9.199s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/library_path.sh
+[9.207s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/library_path.dsv
+[9.216s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[9.226s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[9.235s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/ament_prefix_path.sh
+[9.244s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv
+[9.252s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/path.sh
+[9.262s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/environment/path.dsv
+[9.272s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/local_setup.bash
+[9.282s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/local_setup.sh
+[9.294s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/local_setup.zsh
+[9.304s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/local_setup.dsv
+[9.316s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/package.dsv
+[9.326s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/ament_index/resource_index/packages/serial
+[9.336s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.347s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[9.357s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/cmake/serialConfig.cmake
+[9.367s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake
+[9.378s] -- Symlinking: /home/mazen/course_ws/src/install/serial/share/serial/package.xml
+[9.391s] Invoked command in '/home/mazen/course_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/serial
