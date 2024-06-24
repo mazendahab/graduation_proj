@@ -30,7 +30,7 @@ def generate_launch_description():
     
     gazebo_file = "gazebo.launch.py"
     gazebo_path = os.path.join(get_package_share_directory(gazebo_pkg), "launch", gazebo_file)
-    world_path = os.path.join(get_package_share_directory(pkg_name), "worlds", "sim_world.world")
+    world_path = os.path.join(get_package_share_directory(pkg_name), "worlds", "warehouse.world")
     
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([gazebo_path]),
@@ -38,7 +38,7 @@ def generate_launch_description():
         )
     
     rviz_config_file = os.path.join(get_package_share_directory(pkg_name), "rviz", "show_robot.rviz")
-    use_rviz = LaunchConfiguration("rviz", default=False)
+    use_rviz = LaunchConfiguration("rviz", default=True)
     rviz = Node(
         package="rviz2",
         executable="rviz2",

@@ -6,7 +6,7 @@
             <right_joint>right_wheel_joint</right_joint>
 
             <wheel_separation>${chassis_width}</wheel_separation>
-            <wheel_diameter>0.065</wheel_diameter>
+            <wheel_diameter>0.15</wheel_diameter>
 
             <max_wheel_torque>200</max_wheel_torque>
             <max_wheel_acceleration>3.0</max_wheel_acceleration>
