@@ -5,5 +5,6 @@
 /home/mazen/course_ws/src/build/diff_bot/CMakeFiles/rebuild_cache.dir
 /home/mazen/course_ws/src/build/diff_bot/CMakeFiles/edit_cache.dir
 /home/mazen/course_ws/src/build/diff_bot/CMakeFiles/test.dir
+/home/mazen/course_ws/src/build/diff_bot/CMakeFiles/cmd_vel_mapper.dir
 /home/mazen/course_ws/src/build/diff_bot/CMakeFiles/diff_bot_uninstall.dir
 /home/mazen/course_ws/src/build/diff_bot/CMakeFiles/uninstall.dir

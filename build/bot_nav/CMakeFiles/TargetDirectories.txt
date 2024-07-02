@@ -1,0 +1,9 @@
+/home/mazen/course_ws/src/build/bot_nav/CMakeFiles/install/strip.dir
+/home/mazen/course_ws/src/build/bot_nav/CMakeFiles/install/local.dir
+/home/mazen/course_ws/src/build/bot_nav/CMakeFiles/install.dir
+/home/mazen/course_ws/src/build/bot_nav/CMakeFiles/list_install_components.dir
+/home/mazen/course_ws/src/build/bot_nav/CMakeFiles/rebuild_cache.dir
+/home/mazen/course_ws/src/build/bot_nav/CMakeFiles/edit_cache.dir
+/home/mazen/course_ws/src/build/bot_nav/CMakeFiles/test.dir
+/home/mazen/course_ws/src/build/bot_nav/CMakeFiles/bot_nav_uninstall.dir
+/home/mazen/course_ws/src/build/bot_nav/CMakeFiles/uninstall.dir

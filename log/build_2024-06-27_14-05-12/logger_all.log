@@ -1,0 +1,454 @@
+[0.202s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.202s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc7c5592040>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc7c5592040>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fc7c54d3970>)
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.353s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mazen/course_ws/src'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(bot_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(bot_nav) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(bot_nav) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(bot_nav) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(bot_nav) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(bot_nav) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(bot_nav) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(bot_nav) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(bot_nav) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'bot_nav' with type 'ros.ament_cmake' and name 'bot_nav'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(diff_bot) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'diff_bot' with type 'ros.ament_cmake' and name 'diff_bot'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/diffdrive) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/diffdrive) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/diffdrive) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/diffdrive) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/diffdrive) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/diffdrive) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/diffdrive) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/diffdrive) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/diffdrive) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control_diff_drive/diffdrive' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extension 'ros'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extensions ['cmake', 'python']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extension 'cmake'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_diff_drive/doc) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'ros'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['cmake', 'python']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'cmake'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'python'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['python_setup_py']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'python_setup_py'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extension 'ros'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extensions ['cmake', 'python']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extension 'cmake'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extension 'python'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extensions ['python_setup_py']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge/ROSArduinoBridge) by extension 'python_setup_py'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ros'
+[0.376s] DEBUG:colcon.colcon_core.package_identification:Package 'serial' with type 'ros.ament_cmake' and name 'serial'
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.392s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 326 installed packages in /opt/ros/foxy
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'bot_nav' build argument 'cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'bot_nav' build argument 'cmake_target' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'bot_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'bot_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'bot_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'bot_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'bot_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'bot_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'bot_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.462s] DEBUG:colcon.colcon_core.verb:Building package 'bot_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mazen/course_ws/src/build/bot_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mazen/course_ws/src/install/bot_nav', 'merge_install': False, 'path': '/home/mazen/course_ws/src/bot_nav', 'symlink_install': True, 'test_result_base': None}
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_target' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'diff_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.462s] DEBUG:colcon.colcon_core.verb:Building package 'diff_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mazen/course_ws/src/build/diff_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mazen/course_ws/src/install/diff_bot', 'merge_install': False, 'path': '/home/mazen/course_ws/src/diff_bot', 'symlink_install': True, 'test_result_base': None}
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.463s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mazen/course_ws/src/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mazen/course_ws/src/install/rplidar_ros', 'merge_install': False, 'path': '/home/mazen/course_ws/src/rplidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.464s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mazen/course_ws/src/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mazen/course_ws/src/install/serial', 'merge_install': False, 'path': '/home/mazen/course_ws/src/serial', 'symlink_install': True, 'test_result_base': None}
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.464s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mazen/course_ws/src/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mazen/course_ws/src/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive', 'symlink_install': True, 'test_result_base': None}
+[0.465s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mazen/course_ws/src/serial' with build type 'ament_cmake'
+[0.466s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mazen/course_ws/src/serial'
+[0.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mazen/course_ws/src/bot_nav' with build type 'ament_cmake'
+[0.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mazen/course_ws/src/bot_nav'
+[0.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.478s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mazen/course_ws/src/diff_bot' with build type 'ament_cmake'
+[0.478s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mazen/course_ws/src/diff_bot'
+[0.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mazen/course_ws/src/rplidar_ros2' with build type 'ament_cmake'
+[0.484s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mazen/course_ws/src/rplidar_ros2'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mazen/course_ws/src/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/serial -- -j8 -l8
+[0.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mazen/course_ws/src/build/bot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/bot_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/bot_nav
+[0.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mazen/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/diff_bot -- -j8 -l8
+[0.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mazen/course_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/rplidar_ros -- -j8 -l8
+[1.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mazen/course_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/serial -- -j8 -l8
+[1.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mazen/course_ws/src/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/serial
+[1.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial' for CMake module files
+[1.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mazen/course_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/serial
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial' for CMake config files
+[1.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial/lib'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial/bin'
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial/lib/pkgconfig/serial.pc'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial/lib/python3.8/site-packages'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial/bin'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/serial/share/serial/package.ps1'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mazen/course_ws/src/install/serial/share/serial/package.dsv'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/serial/share/serial/package.sh'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/serial/share/serial/package.bash'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/serial/share/serial/package.zsh'
+[1.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mazen/course_ws/src/install/serial/share/colcon-core/packages/serial)
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mazen/course_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/rplidar_ros -- -j8 -l8
+[1.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial' for CMake module files
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial' for CMake config files
+[1.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial/lib'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial/bin'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial/lib/pkgconfig/serial.pc'
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial/lib/python3.8/site-packages'
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/serial/bin'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/serial/share/serial/package.ps1'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mazen/course_ws/src/install/serial/share/serial/package.dsv'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/serial/share/serial/package.sh'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/serial/share/serial/package.bash'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/serial/share/serial/package.zsh'
+[1.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mazen/course_ws/src/install/serial/share/colcon-core/packages/serial)
+[1.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive' with build type 'ament_cmake'
+[1.467s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive'
+[1.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mazen/course_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/rplidar_ros
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mazen/course_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/mazen/course_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mazen/course_ws/src/build/diffdrive_arduino -- -j8 -l8
+[1.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros' for CMake module files
+[1.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mazen/course_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/rplidar_ros
+[1.802s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros' for CMake config files
+[1.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros/lib'
+[1.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[1.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[1.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros/bin'
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros/lib/python3.8/site-packages'
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros/bin'
+[2.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.sh'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.bash'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[2.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mazen/course_ws/src/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[2.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros' for CMake module files
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros' for CMake config files
+[2.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[2.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[2.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[2.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[2.176s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros/lib'
+[2.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[2.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[2.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[2.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros/bin'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros/lib/python3.8/site-packages'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/rplidar_ros/bin'
+[2.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.sh'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.bash'
+[2.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[2.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mazen/course_ws/src/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[6.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mazen/course_ws/src/build/bot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/bot_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/bot_nav
+[6.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mazen/course_ws/src/build/bot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/bot_nav -- -j8 -l8
+[6.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mazen/course_ws/src/build/bot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/bot_nav -- -j8 -l8
+[6.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mazen/course_ws/src/build/bot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/bot_nav
+[6.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_nav)
+[6.716s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav' for CMake module files
+[6.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mazen/course_ws/src/build/bot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/bot_nav
+[6.718s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav' for CMake config files
+[6.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_nav', 'cmake_prefix_path')
+[6.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/hook/cmake_prefix_path.ps1'
+[6.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/hook/cmake_prefix_path.dsv'
+[6.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/hook/cmake_prefix_path.sh'
+[6.721s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav/bin'
+[6.721s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav/lib/pkgconfig/bot_nav.pc'
+[6.722s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav/lib/python3.8/site-packages'
+[6.722s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav/bin'
+[6.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.ps1'
+[6.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.dsv'
+[6.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.sh'
+[6.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.bash'
+[6.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.zsh'
+[6.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mazen/course_ws/src/install/bot_nav/share/colcon-core/packages/bot_nav)
+[6.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_nav)
+[6.762s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav' for CMake module files
+[6.763s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav' for CMake config files
+[6.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_nav', 'cmake_prefix_path')
+[6.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/hook/cmake_prefix_path.ps1'
+[6.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/hook/cmake_prefix_path.dsv'
+[6.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/hook/cmake_prefix_path.sh'
+[6.766s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav/bin'
+[6.766s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav/lib/pkgconfig/bot_nav.pc'
+[6.767s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav/lib/python3.8/site-packages'
+[6.767s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/bot_nav/bin'
+[6.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.ps1'
+[6.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.dsv'
+[6.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.sh'
+[6.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.bash'
+[6.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.zsh'
+[6.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mazen/course_ws/src/install/bot_nav/share/colcon-core/packages/bot_nav)
+[8.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mazen/course_ws/src/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/mazen/course_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mazen/course_ws/src/build/diffdrive_arduino -- -j8 -l8
+[9.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mazen/course_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/mazen/course_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mazen/course_ws/src/build/diffdrive_arduino
+[9.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[9.074s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino' for CMake module files
+[9.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mazen/course_ws/src/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mazen/course_ws/src/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/mazen/course_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mazen/course_ws/src/build/diffdrive_arduino
+[9.075s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino' for CMake config files
+[9.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[9.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[9.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[9.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[9.077s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino/lib'
+[9.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[9.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[9.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[9.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[9.078s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino/bin'
+[9.078s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[9.079s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino/lib/python3.8/site-packages'
+[9.079s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino/bin'
+[9.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[9.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[9.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[9.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[9.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[9.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mazen/course_ws/src/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[9.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[9.105s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino' for CMake module files
+[9.105s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino' for CMake config files
+[9.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[9.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[9.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[9.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[9.107s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino/lib'
+[9.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[9.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[9.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[9.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[9.108s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino/bin'
+[9.108s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[9.109s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino/lib/python3.8/site-packages'
+[9.109s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diffdrive_arduino/bin'
+[9.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[9.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[9.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[9.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[9.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[9.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mazen/course_ws/src/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[11.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mazen/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/diff_bot -- -j8 -l8
+[11.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mazen/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/diff_bot
+[11.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_bot)
+[11.770s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot' for CMake module files
+[11.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mazen/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/diff_bot
+[11.771s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot' for CMake config files
+[11.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_bot', 'cmake_prefix_path')
+[11.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/hook/cmake_prefix_path.ps1'
+[11.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/hook/cmake_prefix_path.dsv'
+[11.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/hook/cmake_prefix_path.sh'
+[11.773s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot/lib'
+[11.773s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot/bin'
+[11.773s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot/lib/pkgconfig/diff_bot.pc'
+[11.773s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot/lib/python3.8/site-packages'
+[11.774s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot/bin'
+[11.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.ps1'
+[11.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.dsv'
+[11.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.sh'
+[11.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.bash'
+[11.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.zsh'
+[11.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mazen/course_ws/src/install/diff_bot/share/colcon-core/packages/diff_bot)
+[11.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_bot)
+[11.803s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot' for CMake module files
+[11.803s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot' for CMake config files
+[11.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_bot', 'cmake_prefix_path')
+[11.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/hook/cmake_prefix_path.ps1'
+[11.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/hook/cmake_prefix_path.dsv'
+[11.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/hook/cmake_prefix_path.sh'
+[11.805s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot/lib'
+[11.805s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot/bin'
+[11.805s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot/lib/pkgconfig/diff_bot.pc'
+[11.806s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot/lib/python3.8/site-packages'
+[11.806s] Level 1:colcon.colcon_core.environment:checking '/home/mazen/course_ws/src/install/diff_bot/bin'
+[11.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.ps1'
+[11.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.dsv'
+[11.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.sh'
+[11.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.bash'
+[11.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.zsh'
+[11.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mazen/course_ws/src/install/diff_bot/share/colcon-core/packages/diff_bot)
+[11.809s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.809s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.809s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.809s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.816s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.816s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.816s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.833s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.833s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mazen/course_ws/src/install/local_setup.ps1'
+[11.834s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mazen/course_ws/src/install/_local_setup_util_ps1.py'
+[11.835s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mazen/course_ws/src/install/setup.ps1'
+[11.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mazen/course_ws/src/install/local_setup.sh'
+[11.837s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mazen/course_ws/src/install/_local_setup_util_sh.py'
+[11.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mazen/course_ws/src/install/setup.sh'
+[11.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mazen/course_ws/src/install/local_setup.bash'
+[11.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mazen/course_ws/src/install/setup.bash'
+[11.840s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mazen/course_ws/src/install/local_setup.zsh'
+[11.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mazen/course_ws/src/install/setup.zsh'

@@ -310,8 +310,11 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "urdf" "launch" "config" "DESTINATION" "share/diff_bot")
-ament_cmake_symlink_install_directory("/home/mazen/course_ws/src/diff_bot" DIRECTORY "urdf" "launch" "config" "DESTINATION" "share/diff_bot")
+# install("TARGETS" "cmd_vel_mapper" "DESTINATION" "lib/diff_bot")
+include("/home/mazen/course_ws/src/build/diff_bot/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "urdf" "launch" "config" "worlds" "rviz" "src" "DESTINATION" "share/diff_bot")
+ament_cmake_symlink_install_directory("/home/mazen/course_ws/src/diff_bot" DIRECTORY "urdf" "launch" "config" "worlds" "rviz" "src" "DESTINATION" "share/diff_bot")
 
 # install(FILES "/home/mazen/course_ws/src/build/diff_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/diff_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/mazen/course_ws/src/diff_bot" FILES "/home/mazen/course_ws/src/build/diff_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/diff_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

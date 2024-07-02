@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named cmd_vel_mapper
+
+# Build rule for target.
+cmd_vel_mapper: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmd_vel_mapper
+.PHONY : cmd_vel_mapper
+
+# fast build rule for target.
+cmd_vel_mapper/fast:
+	$(MAKE) -f CMakeFiles/cmd_vel_mapper.dir/build.make CMakeFiles/cmd_vel_mapper.dir/build
+.PHONY : cmd_vel_mapper/fast
+
+#=============================================================================
 # Target rules for targets named diff_bot_uninstall
 
 # Build rule for target.
@@ -193,6 +206,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/cmd_vel_mapper.o: src/cmd_vel_mapper.cpp.o
+
+.PHONY : src/cmd_vel_mapper.o
+
+# target to build an object file
+src/cmd_vel_mapper.cpp.o:
+	$(MAKE) -f CMakeFiles/cmd_vel_mapper.dir/build.make CMakeFiles/cmd_vel_mapper.dir/src/cmd_vel_mapper.cpp.o
+.PHONY : src/cmd_vel_mapper.cpp.o
+
+src/cmd_vel_mapper.i: src/cmd_vel_mapper.cpp.i
+
+.PHONY : src/cmd_vel_mapper.i
+
+# target to preprocess a source file
+src/cmd_vel_mapper.cpp.i:
+	$(MAKE) -f CMakeFiles/cmd_vel_mapper.dir/build.make CMakeFiles/cmd_vel_mapper.dir/src/cmd_vel_mapper.cpp.i
+.PHONY : src/cmd_vel_mapper.cpp.i
+
+src/cmd_vel_mapper.s: src/cmd_vel_mapper.cpp.s
+
+.PHONY : src/cmd_vel_mapper.s
+
+# target to generate assembly for a file
+src/cmd_vel_mapper.cpp.s:
+	$(MAKE) -f CMakeFiles/cmd_vel_mapper.dir/build.make CMakeFiles/cmd_vel_mapper.dir/src/cmd_vel_mapper.cpp.s
+.PHONY : src/cmd_vel_mapper.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,8 +246,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... cmd_vel_mapper"
 	@echo "... diff_bot_uninstall"
 	@echo "... uninstall"
+	@echo "... src/cmd_vel_mapper.o"
+	@echo "... src/cmd_vel_mapper.i"
+	@echo "... src/cmd_vel_mapper.s"
 .PHONY : help
 
 

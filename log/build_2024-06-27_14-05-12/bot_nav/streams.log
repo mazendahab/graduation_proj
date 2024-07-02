@@ -1,0 +1,80 @@
+[0.117s] Invoking command in '/home/mazen/course_ws/src/build/bot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/bot_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/bot_nav
+[2.019s] -- The C compiler identification is GNU 9.4.0
+[2.956s] -- The CXX compiler identification is GNU 9.4.0
+[2.988s] -- Check for working C compiler: /usr/bin/cc
+[3.209s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.215s] -- Detecting C compiler ABI info
+[3.332s] -- Detecting C compiler ABI info - done
+[3.347s] -- Detecting C compile features
+[3.379s] -- Detecting C compile features - done
+[3.393s] -- Check for working CXX compiler: /usr/bin/c++
+[3.556s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.557s] -- Detecting CXX compiler ABI info
+[3.673s] -- Detecting CXX compiler ABI info - done
+[3.687s] -- Detecting CXX compile features
+[3.687s] -- Detecting CXX compile features - done
+[3.690s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.710s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.710s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.877s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.984s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.108s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.175s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.487s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.513s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.766s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.767s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.770s] -- Looking for pthread.h
+[4.867s] -- Looking for pthread.h - found
+[4.867s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.022s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.022s] -- Looking for pthread_create in pthreads
+[5.137s] -- Looking for pthread_create in pthreads - not found
+[5.138s] -- Looking for pthread_create in pthread
+[5.298s] -- Looking for pthread_create in pthread - found
+[5.300s] -- Found Threads: TRUE  
+[5.570s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.782s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.789s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.790s] -- Added test 'lint_cmake' to check CMake code style
+[5.791s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.794s] -- Added test 'xmllint' to check XML markup files
+[5.798s] -- Configuring done
+[5.800s] -- Generating done
+[5.802s] -- Build files have been written to: /home/mazen/course_ws/src/build/bot_nav
+[5.813s] Invoked command in '/home/mazen/course_ws/src/build/bot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/bot_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/bot_nav
+[5.816s] Invoking command in '/home/mazen/course_ws/src/build/bot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/bot_nav -- -j8 -l8
+[5.870s] Invoked command in '/home/mazen/course_ws/src/build/bot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/bot_nav -- -j8 -l8
+[5.900s] Invoking command in '/home/mazen/course_ws/src/build/bot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/bot_nav
+[5.910s] -- Install configuration: ""
+[5.910s] -- Execute custom install script
+[5.911s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/launch/localization.launch.py
+[5.923s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/launch/mapping.launch.py
+[5.934s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/launch/navigation.launch.py
+[5.947s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/config/amcl_config.yaml
+[5.959s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/config/behavior.xml
+[5.968s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/config/bt_navigator.yaml
+[5.980s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/config/cartographer.lua
+[5.990s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/config/controller.yaml
+[6.000s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/config/planner_server.yaml
+[6.012s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/config/recovery.yaml
+[6.023s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/config/warehouse_map.pgm
+[6.033s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/config/warehouse_map.yaml
+[6.046s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/rviz/nav.rviz
+[6.060s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/ament_index/resource_index/package_run_dependencies/bot_nav
+[6.075s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/ament_index/resource_index/parent_prefix_path/bot_nav
+[6.092s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/environment/ament_prefix_path.sh
+[6.102s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/environment/ament_prefix_path.dsv
+[6.114s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/environment/path.sh
+[6.125s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/environment/path.dsv
+[6.135s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/local_setup.bash
+[6.149s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/local_setup.sh
+[6.162s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/local_setup.zsh
+[6.173s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/local_setup.dsv
+[6.184s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.dsv
+[6.195s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/ament_index/resource_index/packages/bot_nav
+[6.207s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/cmake/bot_navConfig.cmake
+[6.217s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/cmake/bot_navConfig-version.cmake
+[6.229s] -- Symlinking: /home/mazen/course_ws/src/install/bot_nav/share/bot_nav/package.xml
+[6.244s] Invoked command in '/home/mazen/course_ws/src/build/bot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/bot_nav

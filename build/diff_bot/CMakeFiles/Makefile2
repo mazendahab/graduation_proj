@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/mazen/course_ws/src/build/diff_bot
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/cmd_vel_mapper.dir/all
 
 .PHONY : all
 
@@ -63,10 +63,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/cmd_vel_mapper.dir/clean
 clean: CMakeFiles/diff_bot_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cmd_vel_mapper.dir
+
+# All Build rule for target.
+CMakeFiles/cmd_vel_mapper.dir/all:
+	$(MAKE) -f CMakeFiles/cmd_vel_mapper.dir/build.make CMakeFiles/cmd_vel_mapper.dir/depend
+	$(MAKE) -f CMakeFiles/cmd_vel_mapper.dir/build.make CMakeFiles/cmd_vel_mapper.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mazen/course_ws/src/build/diff_bot/CMakeFiles --progress-num=1,2 "Built target cmd_vel_mapper"
+.PHONY : CMakeFiles/cmd_vel_mapper.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cmd_vel_mapper.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazen/course_ws/src/build/diff_bot/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cmd_vel_mapper.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazen/course_ws/src/build/diff_bot/CMakeFiles 0
+.PHONY : CMakeFiles/cmd_vel_mapper.dir/rule
+
+# Convenience name for target.
+cmd_vel_mapper: CMakeFiles/cmd_vel_mapper.dir/rule
+
+.PHONY : cmd_vel_mapper
+
+# clean rule for target.
+CMakeFiles/cmd_vel_mapper.dir/clean:
+	$(MAKE) -f CMakeFiles/cmd_vel_mapper.dir/build.make CMakeFiles/cmd_vel_mapper.dir/clean
+.PHONY : CMakeFiles/cmd_vel_mapper.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/diff_bot_uninstall.dir

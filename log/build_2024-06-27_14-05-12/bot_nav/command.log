@@ -1,0 +1,6 @@
+Invoking command in '/home/mazen/course_ws/src/build/bot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/bot_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/bot_nav
+Invoked command in '/home/mazen/course_ws/src/build/bot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mazen/course_ws/src/bot_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mazen/course_ws/src/install/bot_nav
+Invoking command in '/home/mazen/course_ws/src/build/bot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/bot_nav -- -j8 -l8
+Invoked command in '/home/mazen/course_ws/src/build/bot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/bot_nav -- -j8 -l8
+Invoking command in '/home/mazen/course_ws/src/build/bot_nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/bot_nav
+Invoked command in '/home/mazen/course_ws/src/build/bot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/bot_nav

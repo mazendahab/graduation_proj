@@ -70,16 +70,6 @@ arduino_comms.h
 string
 -
 
-/home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive/src/arduino_comms.cpp
-diffdrive_arduino/arduino_comms.h
-/home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive/src/diffdrive_arduino/arduino_comms.h
-rclcpp/rclcpp.hpp
--
-sstream
--
-cstdlib
--
-
 /home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive/src/diffdrive_arduino.cpp
 diffdrive_arduino/diffdrive_arduino.h
 /home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive/src/diffdrive_arduino/diffdrive_arduino.h
@@ -87,12 +77,6 @@ hardware_interface/types/hardware_interface_type_values.hpp
 /home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive/src/hardware_interface/types/hardware_interface_type_values.hpp
 pluginlib/class_list_macros.hpp
 /home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive/src/pluginlib/class_list_macros.hpp
-
-/home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive/src/wheel.cpp
-diffdrive_arduino/wheel.h
-/home/mazen/course_ws/src/ros2_control_diff_drive/diffdrive/src/diffdrive_arduino/wheel.h
-cmath
--
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

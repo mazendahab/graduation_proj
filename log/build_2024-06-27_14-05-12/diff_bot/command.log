@@ -1,0 +1,4 @@
+Invoking command in '/home/mazen/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/diff_bot -- -j8 -l8
+Invoked command in '/home/mazen/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/diff_bot -- -j8 -l8
+Invoking command in '/home/mazen/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/diff_bot
+Invoked command in '/home/mazen/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/diff_bot

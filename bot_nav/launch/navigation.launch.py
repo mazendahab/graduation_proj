@@ -78,10 +78,17 @@ def generate_launch_description():
                                         'recoveries_server',
                                         'bt_navigator']}]),
         Node(
-        package= "rviz2",
-        executable= "rviz2",
-        arguments=["-d", rviz_config_file],
-        output= "screen",
-        condition=IfCondition(use_rviz)),
+            package= "rviz2",
+            executable= "rviz2",
+            arguments=["-d", rviz_config_file],
+            output= "screen",
+            condition=IfCondition(use_rviz)),
+        
+        Node(
+            package='my_robot_package',
+            executable='qr_navigation_node',
+            name='qr_navigation_node',
+            output='screen'
+        )
     ])
     

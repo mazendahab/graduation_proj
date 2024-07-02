@@ -1,0 +1,68 @@
+[0.123s] Invoking command in '/home/mazen/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/diff_bot -- -j8 -l8
+[0.560s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.713s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.405s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.230s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.274s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.027s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.677s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.680s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.487s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[5.575s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.777s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.779s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.779s] -- Configured cppcheck include dirs: 
+[5.779s] -- Configured cppcheck exclude dirs and/or files: 
+[5.783s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.783s] -- Configured cpplint exclude dirs and/or files: 
+[5.783s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.785s] -- Added test 'lint_cmake' to check CMake code style
+[5.786s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.788s] -- Added test 'uncrustify' to check C / C++ code style
+[5.789s] -- Configured uncrustify additional arguments: 
+[5.789s] -- Added test 'xmllint' to check XML markup files
+[5.793s] -- Configuring done
+[5.807s] -- Generating done
+[5.811s] -- Build files have been written to: /home/mazen/course_ws/src/build/diff_bot
+[5.840s] [35m[1mScanning dependencies of target cmd_vel_mapper[0m
+[5.962s] [ 50%] [32mBuilding CXX object CMakeFiles/cmd_vel_mapper.dir/src/cmd_vel_mapper.cpp.o[0m
+[10.894s] [100%] [32m[1mLinking CXX executable cmd_vel_mapper[0m
+[11.149s] [100%] Built target cmd_vel_mapper
+[11.161s] Invoked command in '/home/mazen/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mazen/course_ws/src/build/diff_bot -- -j8 -l8
+[11.186s] Invoking command in '/home/mazen/course_ws/src/build/diff_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/diff_bot
+[11.194s] -- Install configuration: ""
+[11.195s] -- Execute custom install script
+[11.195s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/lib/diff_bot/cmd_vel_mapper
+[11.204s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/chassis.xacro
+[11.204s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/control.xacro
+[11.204s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/gazebo_control.xacro
+[11.204s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/inertial_macros.xacro
+[11.204s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/lidar.xacro
+[11.213s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/urdf/robot.urdf.xacro
+[11.213s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/robot.launch.py
+[11.213s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/rsp.launch.py
+[11.213s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/launch/simulation.launch.py
+[11.214s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/config/diff_drive_controller.yaml
+[11.222s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/worlds/my_env/model.config
+[11.230s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/worlds/my_env/model.sdf
+[11.238s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/worlds/sim_world.world
+[11.248s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/worlds/warehouse.world
+[11.258s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/rviz/show_robot.rviz
+[11.269s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/src/cmd_vel_mapper.cpp
+[11.277s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/package_run_dependencies/diff_bot
+[11.277s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/parent_prefix_path/diff_bot
+[11.278s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/ament_prefix_path.sh
+[11.278s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/ament_prefix_path.dsv
+[11.278s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/path.sh
+[11.278s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/environment/path.dsv
+[11.279s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.bash
+[11.279s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.sh
+[11.279s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.zsh
+[11.279s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/local_setup.dsv
+[11.280s] -- Symlinking: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.dsv
+[11.289s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/ament_index/resource_index/packages/diff_bot
+[11.290s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/cmake/diff_botConfig.cmake
+[11.290s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/cmake/diff_botConfig-version.cmake
+[11.290s] -- Up-to-date symlink: /home/mazen/course_ws/src/install/diff_bot/share/diff_bot/package.xml
+[11.292s] Invoked command in '/home/mazen/course_ws/src/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mazen/course_ws/src/build/diff_bot

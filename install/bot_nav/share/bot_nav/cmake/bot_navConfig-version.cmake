@@ -1,0 +1,1 @@
+/home/mazen/course_ws/src/build/bot_nav/ament_cmake_core/bot_navConfig-version.cmake
